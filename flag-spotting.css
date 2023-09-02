@@ -4,16 +4,60 @@ body{
     margin: 0;
 }
 
+#top-key{
+    background-color: white;
+    font-size: 0;
+    height: 30px;
+    margin: 0;
+    padding: 0 0 0 1.5vw;
+    position: fixed;
+    width: 98.5vw;
+    z-index: 1;
+}
+
+.top-key-letter{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 4px;
+    text-align: center;
+    width: 129.9px;
+}
+
+#side-key{
+    background-color: white;
+    font-size: 0;
+    left: 0;
+    margin: 30px 0 0 0;
+    position: absolute;
+    width: 1.5vw;
+}
+
+.side-key-number{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 4px 0 8px 0;
+    text-align: center;
+    height: 80px;
+}
+
 #container{
     font-size: 0;
-    margin: 5px 0;
+    left: 1.5vw;
+    margin: 40px 0 5px 0;
+    top: 0;
+    position: absolute;
+    width: 98.5vw;
 }
 
 .flag{
     display: inline-block;
-    margin: 5px;
+    margin: 4px;
     position: relative;
-    width: 130px;
+    width: 129.9px;
 }
 
 .flag-image{
